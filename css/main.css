@@ -247,7 +247,6 @@ button {
   color: white;
   font-family: "Montserrat", "Avenir Next", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 4px #000;
-  background: rgba(0, 0, 0, 0.4);
 }
 .header__content:hover {
   text-decoration: none;
