@@ -278,7 +278,9 @@ button {
   text-decoration: none;
   color: #d86324;
 }
-
+.nav-main__list {
+  text-align: center;
+}
 
 /**
 * separator
