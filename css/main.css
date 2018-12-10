@@ -202,6 +202,7 @@ button {
   text-align: center;
   width: 960px;
   height: 116px;
+  margin: auto, 35px, auto, 35px, auto;
 }
 
 .full-width {
