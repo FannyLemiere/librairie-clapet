@@ -199,6 +199,9 @@ button {
 
 .chapo {
   font-size: 1.6em;
+  text-align: center;
+  width: 960px;
+  height: 116px;
 }
 
 .full-width {
