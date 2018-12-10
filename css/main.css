@@ -253,7 +253,8 @@ button {
 .header__title {
   font-size: 5.4em;
   margin: 0;
-
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .header__subtitle {
@@ -261,7 +262,8 @@ button {
   font-size: 3.2em;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
-  font-family: 'Montserrat-ExtraLight', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
 
 
