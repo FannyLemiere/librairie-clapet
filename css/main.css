@@ -424,6 +424,10 @@ button {
 .news--main {
   padding-bottom: 35px;
   border-bottom: 1px solid #b0b0c5;
+  display:inline-block;
+  width: 1190px;
+  height: 232px;
+  margin: 10px;
 }
 .news--main .news__link {
   display: flex;
@@ -452,9 +456,6 @@ button {
 
 .news-list__news {
   grid-column: span 1;
-  display: flex;
-  justify-content : center;
-  text-align: center;
 }
 
 /**
