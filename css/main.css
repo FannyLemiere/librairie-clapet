@@ -6,7 +6,7 @@
 */
 
 body {
-  max-width: 960px;
+  max-width: 100%;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
@@ -200,9 +200,9 @@ button {
 .chapo {
   font-size: 1.6em;
   text-align: center;
-  width: 960px;
+  width: 90%;
   height: 116px;
-  margin: auto, 35px, auto, 35px, auto;
+  margin: auto, auto, auto, auto;
 }
 
 .full-width {
@@ -425,7 +425,7 @@ button {
   padding-bottom: 35px;
   border-bottom: 1px solid #b0b0c5;
   display:inline-block;
-  width: 1190px;
+  width: 1197px;
   height: 232px;
   margin: 10px;
 }
