@@ -297,23 +297,22 @@ button {
 
 
 .separator {
+    margin-top: 70px;
+    margin-bottom: 70px;
     display: block;
-    border: none;
-    border-top: 3px dashed #333;
-    color: #333;
-    overflow: visible;
+    color: #9ea6b2;
     height: 1px;
-    width: 50px;
-  transform: rotate(30deg);
+    width: 193px;
+    transform: rotate(22deg);
 }
 
 .separator::after {
     display: block;
-    border-top: 3px double #333;
+    border-top: 1px solid #9ea6b2;
     content: '.';
     height: 1px;
-    width: 50px;
-    transform: rotate(-80deg);
+    width: 193px;
+    transform: rotate(-45deg);
 }
 
 
