@@ -205,6 +205,22 @@ button {
   margin: auto;
 }
 
+.chaposingle {
+  font-size: 2.4em;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.textsingle{
+  font-size: 2.0em;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.citation{
+  font-size: 2.4em;
+  font-family: 'Montserrat', sans-serif;
+  color: #e8a27d;
+  font-weight: lighter;
+}
 .full-width {
   display: block;
   width: 100%;
