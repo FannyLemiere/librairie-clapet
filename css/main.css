@@ -452,6 +452,9 @@ button {
 
 .news-list__news {
   grid-column: span 1;
+  display: flex;
+  justify-content : center;
+  text-align: center;
 }
 
 /**
