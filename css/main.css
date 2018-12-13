@@ -205,14 +205,10 @@ button {
   margin: auto;
 }
 
-.chaposingle {
-  font-size: 2.4em;
-  font-family: 'Work Sans', sans-serif;
-}
-
 .textsingle{
   font-size: 2.0em;
   font-family: 'Work Sans', sans-serif;
+  text-align: justify;
 }
 
 .citation{
@@ -220,7 +216,51 @@ button {
   font-family: 'Montserrat', sans-serif;
   color: #e8a27d;
   font-weight: lighter;
+  text-align: justify;
 }
+
+.unenuit{
+  font-size: 2.5em;
+  font-family: 'Work Sans', sans-serif;
+  text-align: justify;
+}
+
+.il-fait-une-découverte{
+  font-size: 2.0em;
+  font-family: 'Work Sans', sans-serif;
+  text-align: justify;
+}
+
+.citation{
+  font-size: 2.4em;
+  font-family: 'Montserrat', sans-serif;
+  color: #e8a27d;
+  font-weight: lighter;
+  text-align: left;
+  border-left:4px solid #d9d9d9;
+  padding-left: 20px;
+}
+.source{
+  font-size: 1.6em;
+  font-family: 'Work Sans', sans-serif;
+  color: #1a1a1a;
+  text-align: right;
+}
+.text-jim-lynch{
+  font-size: 2.0em;
+  font-family: 'Work Sans', sans-serif;
+  text-align: justify;
+}
+
+.paragraphe{
+  font-size: 2.0em;
+  font-family: 'Work Sans', sans-serif;
+  text-align: justify;
+  width: 960px;
+  height: 360px;
+
+}
+
 .full-width {
   display: block;
   width: 100%;
@@ -537,8 +577,7 @@ button {
 * Conseils de lecture
 */
 .imagecoverconseils {
-  height: 844px;
-  width: 560px;
+  min-width: 400px;
 }
 .parents {
   display: flex;
@@ -547,4 +586,5 @@ button {
 .enfant1 {
   display: flex;
   flex-direction: column;
+  margin-left: 40px;
 }
