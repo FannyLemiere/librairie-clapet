@@ -363,7 +363,10 @@ button {
 * separator
 */
 
-
+.spare {
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 30px;
+}
 .separator {
     margin-top: 70px;
     margin-bottom: 70px;
@@ -528,6 +531,13 @@ button {
   width: 100%;
 }
 
+.news-listactu3 {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+}
 }
 .news-list .news-list__news--main {
   grid-column: span 3;
