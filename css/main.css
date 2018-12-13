@@ -518,6 +518,17 @@ button {
   margin-bottom: 35px;
 }
 
+.news-listactu {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin: 35px auto;
+  max-width: 920px;
+  width: 100%;
+}
+
+}
 .news-list .news-list__news--main {
   grid-column: span 3;
 }
@@ -526,6 +537,12 @@ button {
   grid-column: span 1;
 }
 
+.news-list__newsactu2 {
+  grid-column: span 2;
+}
+.news-list__newsactu1 {
+  grid-column: span 1;
+}
 /**
 * -----------
 * Trumps
