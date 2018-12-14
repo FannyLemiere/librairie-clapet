@@ -521,6 +521,31 @@ button {
   margin-bottom: 35px;
 }
 
+/**
+* news-list
+*/
+.news-list {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 780px) {
+  .news-list {
+  grid-template-columns: repeat (2, 1fr)
+  }
+}
+@media screen and (max-width: 500px) {
+  .news-list {
+  grid-template-columns: repeat (1, 1fr)
+  }
+}
+
+
+
+
 .news-listactu {
   display: grid;
   grid-gap: 35px;
