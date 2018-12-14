@@ -6,7 +6,8 @@
 */
 
 body {
-  max-width: 100%;
+  max-width: 1440px;
+  width: 100%;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
@@ -95,13 +96,14 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .text-container {
   margin: auto;
-  max-width: 960px;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .columns {
@@ -200,7 +202,8 @@ button {
 .chapo {
   font-size: 1.6em;
   text-align: center;
-  width: 90%;
+  width: 100%;
+  max-width: 960px;
   height: 116px;
   margin: auto;
 }
@@ -283,7 +286,8 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
+  width: 100%;
+  max-width: 1440px;
   height: 350px;
   background: url("../img/header-bg.jpg");
   background-size: cover;
@@ -296,7 +300,8 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
+  width: 100%;
+  max-width: 1440px;
   height: 215px;
   background: url("../img/header-bg.jpg");
   background-size: cover;
@@ -552,7 +557,7 @@ button {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   margin: 35px auto;
-  max-width: 920px;
+  max-width: 1440px;
   width: 100%;
 }
 
@@ -578,6 +583,10 @@ button {
 .news-list__newsactu1 {
   grid-column: span 1;
 }
+
+.news-list__newsactu3 {
+  grid-column: span 3;
+}
 /**
 * -----------
 * Trumps
@@ -601,6 +610,7 @@ button {
   font-size: 5.6em;
   line-height: 1.4;
   font-weight: 500;
+  text-align: left;
 }
 
 .page-single__subtitle {
@@ -639,4 +649,28 @@ button {
   display: flex;
   flex-direction: column;
   margin-left: 40px;
+}
+
+
+/**
+* Actualités
+*/
+
+.news__texte1 {
+  margin-top: 0px;
+  font-size: 2.5em;
+  font-family: 'Work Sans', sans-serif;
+  text-align: justify;
+}
+.news__titre {
+margin: 0 0 15px;
+  font-size: 4.2em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+.news__texte2{
+
+  font-size: 2.0em;
+  font-family: 'Work Sans', sans-serif;
+  text-align: justify;
 }
