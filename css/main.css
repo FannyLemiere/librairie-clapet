@@ -421,10 +421,15 @@ margin: 0 30px 0 30px;
   display: inline-block;
   margin-bottom: 10px;
   filter: grayscale(0);
+  transition: .4s transform;
+  opacity: .3s;
 }
 
 .honey-pot__thumbnail:hover {
+
   filter: grayscale(60%);
+  transform: translateY(50px);
+  opacity: 0.5;
 }
 
 .honey-pot__thumbnail img {
